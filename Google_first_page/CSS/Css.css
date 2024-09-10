@@ -1,0 +1,143 @@
+body{
+    background-color: #3c3c3c;
+}
+.header{
+    padding: 22px;
+    text-align: right;
+}
+.link{
+    font-size: 90%;
+    color: #ffffff;
+    margin-right: 9px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.burger_icon{
+    margin-top:-10px ;
+    margin-right: 6px;
+    width:40px ;
+    height: 40px;
+    border: 10px solid rgba(132, 132, 132, 0); 
+}
+.burger_icon:hover{
+    border-radius: 100px ;
+    border: 10px solid rgba(132, 132, 132, 0.111); 
+}
+.account_icon{
+    width:40px ;
+    height: 40px;
+    margin-right: -8px;
+    margin-top:-11px ;
+    border: 3px solid rgba(132, 132, 132, 0); 
+}
+.account_icon:hover{
+    border-radius: 100px ;
+    border: 3px solid rgba(132, 132, 132, 0.111); 
+}
+.main{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.Google_text{
+    padding-bottom: 2%;
+    text-align: center;
+    margin-top: 90px;
+    color: #ffffff;
+    font-size: 500%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.container_search{
+    padding-bottom: 2%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background-color: white;
+    width: 740px;
+    height: 50px;
+}
+.search{
+    width: 83%;
+    height: 50px;
+}
+.icon_search{
+    margin: 15px;
+    width: 20px; 
+    height: 20px;
+}
+.micro{
+    margin-right: 15px;
+    z-index: 10;
+    width: 13px; 
+    height: 20px;
+}
+.camera{
+    margin-right: 15px;
+    z-index: 10;
+    width: 20px; 
+    height: 20px;
+}
+.container_add{
+    border-radius: 5%;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.758);
+    flex-direction: column;
+    min-height: 100px;
+    min-width: 100px;
+}
+.container_add:hover{
+    background-color:rgba(255, 255, 255, 0.229); ;
+}
+.add_icon{
+    width: 95px;
+    height: 80px;
+}
+.add_text{
+    text-align: center;
+    font-size: 9   0%;
+    padding-bottom: 20px;
+}
+.footer{
+    position: fixed;
+    bottom: 15px;
+    right: 12px; 
+}
+
+.style_setting_img{
+    box-sizing: border-box;
+    width: 35px;
+    padding: 4px;
+    height: 30px;
+}
+.style_setting{
+    padding-left: 7px;
+    box-sizing: border-box;
+    padding-right: 7px;
+    color: #ffffffa6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #004a77;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.style_setting:hover{
+    background-color: rgb(49, 101, 133);
+}
+@media(max-width:800px){
+    .search{
+        width: 71%;
+    }
+    .container_search{
+        width: 540px;
+    }
+}
+@media(max-width:600px){
+    .search{
+        width: 61%;
+    }
+    .container_search{
+        width: 340px;
+    }
+}
